@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
     <header>
@@ -19,17 +21,17 @@
               <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="navbar-nav me-auto mx-5">
                     <li class="nav-item px-3 text-light fw-bolder ">
-                      <a class="nav-link " aria-current="page" href="#">Home</a>
+                      <a class="nav-link " aria-current="page" href="#">Home Page</a>
                     </li>
                     <li class="nav-item px-3 text-light fw-semibold">
-                      <a class="nav-link" href="about-page.html">About-page</a>
+                      <a class="nav-link" href="about-page.html">About Page</a>
                     </li>
                     <li class="nav-item px-3 text-light fw-semibold">
-                      <a class="nav-link" href="contact-page.html">Contact-page</a>
+                      <a class="nav-link" href="contact-page.html">Contact Page</a>
                     </li>
-                    <li class="nav-item px-3 text-light fw-semibold">
+                    <li class="nav-item px-3 text-light fw-semibold bg-success rounded-pill">
                         <a class="nav-link" href="Student-information.html
-                        ">Student-information</a>
+                        ">Student Information</a>
                     </li>
                       <li class="nav-item px-3  text-light fw-semibold ">
                         <a class="nav-link" href="Student-result.html">Student result</a>
@@ -39,8 +41,8 @@
           </nav>
     </header>
     <div>
-        <div class="panel-heading text-center text-light bg-info p-2">
-            <h1>Registration Form</h1>
+        <div class="panel-heading text-center text-success p-2">
+            <h1><i>Registration Form</i></h1>
         </div>
         <div class="container ">
             <div class="row col-md-6 col-md-offset-3">
@@ -90,26 +92,119 @@
                                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="mm/dd/yyy">
                               </div> 
                            </div>
-                           <div class="px-5 p-3 ">
-                            <button class="bg-info text-light border border-info rounded p-2"> <h5>Submit</h5></button>
+                           <div class="px-5 p-3  ">
+                            <button class=" text-light border border-info rounded p-2 bg-success "> <h5>Submit</h5></button>
                            </div>
                     </div>
                 </form>
             </div>
         </div>
     </div>
-    <div class="bg-dark">
-        <div class="text-center mt-5 text-light ">
-          <h1>Footer</h1>
+    <section>
+      <section class="p-4 pt-5">
+        <table class="table table-bordered table-warning table table-striped border border-2 border border-success ">
+            <thead>
+              <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email Address</th>
+                <th>Gender</th>
+                <th>Phone Number</th>
+                <th>Birth Date</th>
+                
+              </tr>
+            </thead>
+            <tbody>
+             <div>
+              <tr>
+                <td>Jannat</td>
+                <td>Rimni</td>
+                <td>Email@janntrimni</td>
+                <td>Female</td>
+                <td>++012345</td>
+                <td>04/12/2000</td>
+              </tr>
+             </div>
+              <tr>
+                <td>Mary</td>
+                <td>Maha</td>
+                <td>Email@mahamary</td>
+                <td>Female</td>
+                <td>++012345</td>
+                <td>02/21/2001</td>
+                
+              </tr>
+              <tr>
+                <td>MD</td>
+                <td>Shimul</td>
+                <td>Email@mdshimul</td>
+                <td>Male</td>
+                <td>++012345</td>
+                <td>12/18/2000</td>
+                
+              </tr>
+              <tr>
+                <td>Anjon</td>
+                <td>Sorker</td>
+                <td>Email@anjon123</td>
+                <td>Male</td>
+                <td>++012345</td>
+                <td>03/04/2003</td>
+                
+              <tr>
+                <td>July</td>
+                <td>Islam</td>
+                <td>Email@july123</td>
+                <td>Female</td>
+                <td>++012345</td>
+                <td>11/23/2005</td>
+                
+              </tr>
+              
+
+            </tbody>
+          </table>
         </div>
-        <p class="text-light text-center mt-2">Dhamrai Polytechnic Institute </p>
-        <div class="text-center p-3">
-          <img src="icons/facebook.png" alt="">
-          <img src="icons/insta.png" alt="">
-          <img src="icons/twitter.png" alt="">
+    </section>
+
+    </section>
+    <div class="rel-a text-light">
+      <div>
+        <h3 class="reg-t">Student-info</h3>
+        <div class="reg-u">
+          <p>Email:info@Dhamrai Polytechnic Institute</p>
+          <p>Phone:+001234567</p>
+          <p>Address:Islampur Dhimrai</p>
         </div>
       </div>
-    
+      <div>
+        <h3 class="reg-t">Quick Link</h3>
+        <ul class="link-1">
+          <li><i>Home-page</i></li>
+          <li><i>About-page</i></li>
+          <li><i>Contact-page</i></li>
+          <li><i>Student-information</i></li>
+          <li><i>Student-result</i></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="reg-t">Follow Us</h3>
+          <div class="rel-c d-flex">
+            <div>
+              <img src="icons/facebook.png"  alt="">
+            </div>
+            <div>
+              <img src="icons/insta.png" alt="">
+            </div>
+            <div>
+              <img src="icons/twitter.png" alt="">
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="rel-b text-center fw-semibold ">
+      <p>2024 MY Collage Details</p>
+    </div>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

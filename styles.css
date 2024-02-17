@@ -1,0 +1,57 @@
+/*stident result*/
+.rel-a{
+    display: flex;
+    gap: 100px;
+    padding: 20px;
+    padding-left: 130px;
+    background-color: black;
+}
+.rel-b{
+    background-color: darkorange;
+    padding-top: 2px;
+   
+}
+.rel-c{
+    padding-top: 20px;
+    gap: 20px;
+}
+.rel-e{
+    gap: 40px;
+}
+.link-1{
+    color: blue;
+    list-style: none;
+}
+
+/*student information*/
+.reg-a{
+    background-color: rgb(199, 75, 99);
+}
+.stu-b{
+    
+    gap: 200px;
+}
+.reb-c{
+    background-color: black;
+    color: bisque;
+}
+.stu-c{
+    gap: 10px;
+}
+.reg-e{
+    color: rgb(141, 138, 138);
+    padding-top: 20px;
+}
+.reg-f{
+   gap: 40px;
+}
+.reg-t{
+    color: darkgoldenrod;
+}
+.reg-m{
+    color: rgb(141, 138, 138);
+    padding-top: 5px;
+}
+.reg-u{
+    color: rgb(141, 138, 138);
+}
