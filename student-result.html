@@ -41,41 +41,37 @@
 </header>
     <div class="container ">
         <div class="row col-md-6 col-md-offset-3">
-            <form>
+            <div>
                 <div class="d-flex fw-semibold ">
                     <div>
                         <div class="mb-3 mt-2 px-5 p-2">
                             <label for="exampleFormControlInput1" class="form-label"> Name:</label>
-                            <input  type="email" class="form-control" id="exampleFormControlInput1" placeholder="name">
+                            <input  type="text" class="form-control" id="name" placeholder="name">
                           </div>
                           <div class="mb-3 mt-2 px-5 p-2 ">
                             <label for="exampleFormControlInput1" class="form-label">Roll:</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="roll">
-                          </div>
-                        <div class="mb-3 mt-2 px-5 p-2">
-                            <label for="exampleFormControlInput1" class="form-label">Regestion No:</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="reg...">
+                            <input type="text" class="form-control" id="roll" placeholder="roll">
                           </div>
                     </div>
                     <div>
                         <div class="mb-3 mt-2 px-5 p-2">
                             <label for="exampleFormControlInput1" class="form-label">Depertment:</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="depertment">
+                            <input type="text" class="form-control" id="depertment" placeholder="depertment">
                           </div>
                           <div class="mb-3 mt-2 px-5 p-2">
                             <label for="exampleFormControlInput1" class="form-label">Semester:</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="semester">
+                            <input type="text" class="form-control" id="semester" placeholder="semester">
                           </div>
                           <div class="mb-3 mt-2 px-5 p-2">
                             <label for="exampleFormControlInput1" class="form-label">Result:</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="result">
+                            <input type="text" class="form-control" id="result" placeholder="result">
                           </div>
                     </div>
                 </div>
                 <div class="p-2 text-center ">
-                    <button class=" rel-d bg-info text-light border border-info rounded p-2 "> <h5>Submit </h5></button>
+                    <button id="submit-button" class=" rel-d bg-info text-light border border-info rounded p-2 "> <h5>Submit </h5></button>
                    </div>
-            </form>
+            </div>
         </div>
     </div>
 
@@ -86,75 +82,33 @@
                 <th>Name</th>
                 <th>Roll</th>
                 <th>Depertment</th>
-                <th>Bangla</th>
-                <th>English</th>
-                <th>Math</th>
+                <th>Semester</th>
                 <th>Result</th>
               </tr>
             </thead>
-            <tbody>
-              <tr>
+            <tbody id="table-content">
+               <tr>
                 <td>Rimni</td>
                 <td>216609</td>
                 <td>Computer</td>
-                <td>4.00</td>
-                <td>3.90</td>
-                <td>3.39</td>
+                <td>5th</td>
                 <td>4.00</td>
               </tr>
               <tr>
                 <td>Mary</td>
                 <td>216605</td>
                 <td>Electrical</td>
-                <td>3.65</td>
-                <td>3.00</td>
-                <td>3.70</td>
-                <td>3.60</td>
+                <td>5th</td>
+                <td>4.00</td>
               </tr>
               <tr>
                 <td>Shimul</td>
                 <td>216607</td>
                 <td>Computer</td>
-                <td>3.90</td>
-                <td>4.00</td>
-                <td>3.80</td>
+                <td>5th</td>
                 <td>4.00</td>
               </tr>
-              <tr>
-                <td>Anjon</td>
-                <td>216612</td>
-                <td>Computer</td>
-                <td>3.75</td>
-                <td>3.80</td>
-                <td>4.00</td>
-                <td>3.80</td>
-              <tr>
-                <td>July</td>
-                <td>216603</td>
-                <td>Electrical</td>
-                <td>2.90</td>
-                <td>3.00</td>
-                <td>3.70</td>
-                <td>3.30</td>
-              </tr>
-              <tr>
-                <td>Ahad</td>
-                <td>216604</td>
-                <td>Computer</td>
-                <td>3.05</td>
-                <td>3.00</td>
-                <td>2.80</td>
-                <td>2.50</td>
-              </tr>
-              <tr>
-                <td>Shebli</td>
-                <td>216602</td>
-                <td>Electrical</td>
-                <td>3.65</td>
-                <td>3.90</td>
-                <td>3.80</td>
-                <td>3.80</td>
-              </tr>
+              
 
             </tbody>
           </table>
@@ -200,5 +154,6 @@
     </div>
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="./js/studentResult.js"></script>
 </body>
 </html>
